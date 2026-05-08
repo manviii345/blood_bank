@@ -1,16 +1,4 @@
--- =========================================================
--- Aegis Blood Bank - Complete Demo Setup Script
--- Run this entire script in your Supabase SQL Editor
--- =========================================================
 
--- 1. Triggers not needed anymore as we use custom auth.
--- (The previously defined handle_new_user trigger has been removed)
-
-
-
--- 2. Disable strict RLS blocks for the demo (Lets Express insert data freely)
--- Note: In a real enterprise app, you'd scope this by user_id. 
--- For the college demo, we just need the insertions to work.
 DROP POLICY IF EXISTS "Enable insert for authenticated users only" ON "public"."blood_requests";
 CREATE POLICY "Enable insert for authenticated users only" ON "public"."blood_requests" FOR INSERT TO authenticated WITH CHECK (true);
 
