@@ -1,52 +1,61 @@
-# Blood Bank Management System
+# 🩸 Blood Bank Management System
 
-A production-quality full-stack platform for managing blood donations, inventory, requests, and staff operations.
+A modern web platform for managing blood donations, inventory, hospital requests, and donor activities.
 
-## Overview
-This platform brings modern healthcare operations management to blood banks, prioritizing a premium user experience and reliable transaction management. It provides tailored experiences for Super Admins, Blood Bank Staff, Hospital Request Managers, and Donors.
+🌐 Live Demo: https://bloodbank-beta.vercel.app/
 
-## Tech Stack
-- **Frontend:** React + Vite, Tailwind CSS (v4), Framer Motion, React Router DOM
-- **Backend:** Express.js (Node.js)
-- **Database/Auth:** Supabase (PostgreSQL)
+---
 
-## Setup Instructions
+## ✨ Features
 
-### Environment Variables
-*(To be added)*
+- Role-Based Authentication
+- Admin Dashboard
+- Hospital Staff Dashboard
+- User/Donor Dashboard
+- Blood Inventory Management
+- Donation & Request Tracking
+- Responsive Modern UI
 
-### Run Commands
+---
 
-**Frontend:**
-```bash
-cd frontend
-npm install
-npm run dev
-```
+## 🛠 Tech Stack
 
-**Backend:**
-```bash
+### Frontend
+- React + Vite
+- Tailwind CSS
+- Framer Motion
+
+### Backend
+- Express.js
+
+### Database & Auth
+- Supabase (PostgreSQL)
+
+---
+
+## 📊 Dashboards
+
+### Admin
+- Manage users & staff
+- Monitor inventory
+- View analytics
+
+### Hospital Staff
+- Create/manage blood requests
+- Track request status
+- Access inventory
+
+### Users / Donors
+- Book appointments
+- View donation history
+- Manage profile
+
+###Backend---
 cd backend
 npm install
 npm run dev
-```
-
-## Deployment
-- **Frontend:** Vercel
-- **Backend:** Render/Railway
-- **Database:** Supabase
-
-## Feature List
-- [ ] Role-Based Authentication (Supabase Auth)
-- [ ] Super Admin Dashboard (Analytics, User Management)
-- [ ] Blood Bank Staff Dashboard (Inventory, Donations)
-- [ ] Hospital Request Manager (Blood Requests)
-- [ ] Donor Portal (Appointments, History)
-- [ ] Blood Inventory Management (Expiration, Stock Rules)
-- [ ] Interactive UI with Framer Motion
-
-## Screenshots
-*(Placeholders for future screenshots)*
-- `landing-page.png`
-- `donor-dashboard.png`
-- `admin-dashboard.png`
+  
+Deployment
+Frontend: Vercel
+Backend: Render / Railway
+Database: Supabase 
